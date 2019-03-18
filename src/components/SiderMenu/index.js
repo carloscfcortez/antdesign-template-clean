@@ -35,6 +35,7 @@ export default class SiderMenu extends React.Component {
         >
           <div className='logo'>
             <img src={logo} alt='Logo' />
+            <h1>Ant Design Pro</h1>
           </div>
           <Menu theme='dark' defaultSelectedKeys={['1']} mode='inline'>
             <Menu.Item key='1'>
@@ -77,7 +78,7 @@ export default class SiderMenu extends React.Component {
           </Menu>
         </Sider>
         <Layout>
-          <Header style={{ background: '#fff', paddingLeft: '15px' }}>
+          <Header style={{ background: '#fff', padding: 0 }}>
             <Icon
               className='trigger'
               type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
