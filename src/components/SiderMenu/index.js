@@ -25,7 +25,7 @@ export default class SiderMenu extends React.Component {
   }
 
   render () {
-    return (
+    return ( 
       <Layout style={{ minHeight: '100vh' }}>
         <Sider
           collapsible
@@ -35,7 +35,6 @@ export default class SiderMenu extends React.Component {
         >
           <div className='logo'>
             <img src={logo} alt='Logo' />
-            <h1>Ant Design Pro</h1>
           </div>
           <Menu theme='dark' defaultSelectedKeys={['1']} mode='inline'>
             <Menu.Item key='1'>
